@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #app {
+    height: 100%;
+    background-color: #222831;
+    color: white;
+  }
+
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    background-color: #393E46;
+}
+.switchBtns{
+    display: flex;
+}
+
+.switchBtn{
+    width: 50%;
+    height: 80px;
+    color: white;
+    background-color: #0F4C75;
+    cursor: pointer;
+    border: none;
+}
+
+.iconInput{
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.iconLogin{
+    width: 90px;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.iconLogin>img{
+    width: 40px;
+    height:40px;
+}
+
+.inputLogin{
+    width: 80%;
+    height: 70px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.inputLogin>input{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #222831;
+}
+
+.LoginSignupBtn{
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    background-color: #3282B8;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.nameFields{
+    height: 70px;
+    padding: 50px 10px 10px 10px;
+}
+.nameFields>input{
+    width: 45%;
+    height: 50px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #222831;
+    border-radius: 5px;
+}
+
+.selectedBtn{
+    color: white;
+    background-color: #3282B8;
+    font-size: 18px;
+}
+
+.errorMsg{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: red
+}
+
+.createBlogModal{
+    display: flex;
+    flex-direction: column;
+}
+
+.createBlogModal>textarea{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.createBlogModal>input{
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.createBlogButtons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.createBlogButtons>button{
+    width: 48%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.rightPanel>button{
+    height: 40px;
+    width: 50%;
+    margin-top: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rightPanel{
+    text-align: center;
+    
+}

@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+}
+.feed{
+    width: 60%;
+    border: 1px solid orange;
+}
+.rightPanel{
+    width: 20%;
+    border: 1px solid white;
+}
+.profileInfo{
+    width: 20%;
+    border: 1px solid green;
+}
+.startPostBtn{
+    text-align: center;
+    padding: 20px 0;
+}
+.startPostBtn>button{
+    width: 60%; 
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.startPostBtn>button:hover{
+    background-color: rgb(200, 200, 200);
+}
+
